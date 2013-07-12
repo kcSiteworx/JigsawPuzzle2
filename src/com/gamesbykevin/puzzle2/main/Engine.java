@@ -41,7 +41,6 @@ public class Engine implements KeyListener, MouseMotionListener, MouseListener, 
      * The Engine that contains the game/menu objects
      * 
      * @param main Main object that contains important information so we need a reference to it
-     * @throws CustomException 
      */
     public Engine(final Main main) 
     {
@@ -143,7 +142,7 @@ public class Engine implements KeyListener, MouseMotionListener, MouseListener, 
     /**
      * Draw our game to the Graphics object whether resources are still loading or the game is intact
      * @param g
-     * @return
+     * @return Graphics
      * @throws Exception 
      */
     @Override
